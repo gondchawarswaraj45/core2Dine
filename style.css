@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: #1a1210;
+    color: wheat;
+    line-height: 1.7;
+}
+
+header {
+    background-color: maroon;
+    padding: 22px 30px 14px;
+    text-align: center;
+    border-bottom: 3px solid gold;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header h2 {
+    font-family: 'Playfair Display', serif;
+    color: wheat;
+    font-size: 1.4rem;
+    margin-top: 4px;
+}
+
+header h3 {
+    color: wheat;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+header h4 {
+    color: wheat;
+    font-weight: 300;
+    margin-top: 4px;
+}
+
+header p {
+    color: tan;
+    margin-top: 4px;
+}
+
+nav {
+    margin-top: 16px;
+}
+
+nav a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 500;
+    padding: 7px 14px;
+    margin: 2px 2px;
+    display: inline-block;
+    border-radius: 5px 5px 0 0;
+    background-color: #500000;
+    border: 1px solid #701010;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: gold;
+    background-color: darkred;
+    border-color: tan;
+    border-bottom: 2px solid gold;
+}
+
+nav strong a {
+    color: gold;
+    background-color: darkred;
+    border-color: tan;
+    border-bottom: 2px solid gold;
+    font-weight: 600;
+}
+
+nav strong a:hover {
+    color: gold;
+    background-color: darkred;
+    border-color: gold;
+    border-bottom: 2px solid gold;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid sienna;
+    margin: 20px 0;
+}
+
+main {
+    padding: 30px 40px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    font-size: 1.6rem;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: tan;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 10px;
+    color: wheat;
+}
+
+b, strong {
+    color: gold;
+}
+
+em, i {
+    color: tan;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: wheat;
+}
+
+mark {
+    background-color: gold;
+    color: maroon;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+img {
+    border-radius: 6px;
+    margin: 12px 0;
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    padding-left: 25px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+    color: wheat;
+}
+
+dl {
+    padding-left: 10px;
+    margin-bottom: 15px;
+}
+
+dt {
+    color: gold;
+    margin-top: 10px;
+}
+
+dd {
+    color: tan;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 15px 0;
+    background-color: #241816;
+}
+
+caption {
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+th, td {
+    padding: 10px 14px;
+    text-align: left;
+    border: 1px solid sienna;
+}
+
+th {
+    background-color: maroon;
+    color: gold;
+    font-weight: 600;
+}
+
+td {
+    color: wheat;
+}
+
+thead {
+    background-color: maroon;
+}
+
+tfoot td {
+    background-color: #1e1311;
+    color: tan;
+    font-size: 0.9rem;
+}
+
+fieldset {
+    border: 1px solid sienna;
+    padding: 20px;
+    border-radius: 6px;
+    background-color: #241816;
+}
+
+legend {
+    font-family: 'Playfair Display', serif;
+    color: gold;
+    font-weight: 600;
+    padding: 0 10px;
+}
+
+label {
+    color: wheat;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+input[type="url"],
+select,
+textarea {
+    background-color: #2e1e1a;
+    color: wheat;
+    border: 1px solid sienna;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.95rem;
+    width: 100%;
+    max-width: 400px;
+    margin-top: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: gold;
+}
+
+input[type="submit"],
+input[type="reset"],
+button {
+    background-color: maroon;
+    color: gold;
+    border: 1px solid gold;
+    padding: 9px 22px;
+    border-radius: 4px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: darkred;
+}
+
+input[type="reset"]:hover {
+    background-color: sienna;
+}
+
+details {
+    background-color: #241816;
+    padding: 12px 16px;
+    border-radius: 5px;
+    border-left: 3px solid gold;
+}
+
+summary {
+    cursor: pointer;
+    color: gold;
+}
+
+details p {
+    margin-top: 8px;
+    color: wheat;
+}
+
+iframe {
+    border-radius: 6px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+video {
+    border-radius: 6px;
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+audio {
+    margin: 10px 0;
+    max-width: 100%;
+}
+
+footer {
+    background-color: maroon;
+    text-align: center;
+    padding: 20px 40px;
+    margin-top: 20px;
+    border-top: 2px solid sienna;
+}
+
+footer p {
+    color: wheat;
+    font-size: 0.85rem;
+}
